@@ -1,2 +1,2 @@
 # CoF
-Código usando o padrão Chain of Responsability
+A principal diferença entre o imaginario tabajara e o exemplo do Brizeno é que no tabajara, a cadeia ocorre dentro dos filtros retornados pela fabrica, e no exemplo do banco, o cliente inicializa a cadeia apos informar o id (Enum) do banco. Outra difença é que antes de chamar outro banco da cadeia, é verificado se exite o proximo elemento, no tabajara não existe essa verificação. A semelhança é uma dasfinalidades do padrão, as classes concretas da cadeia não precisa conhecer o comportamento da outra, por meio de uma referencia ela consegue repassar a requisição para aproxima da cadeia.
